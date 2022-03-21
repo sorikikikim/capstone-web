@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="index.css">
+
+<div>	
+	<div id="login">
+		<button type="button" id='homeBtn' onclick="location.href='logIn.html'">로그인</button>
+		<button type="button" id='sellBtn' onclick="location.href='signUp.html'">회원가입</button>
+	</div>
+	<div id="header">
+		<p id="title"><img src="images/mainLogo.png"></img>&nbsp;한성마켓</p>
+	</div>
+	<div id="nav">
+		<div id="menu">
+			<button type="button"><img src="images/menubar.png" width="20" height="20" /></button>
+			<button type="button">홈</button>
+			<button type="button">판매등록</button>
+			<button type="button">상품검색</button>
+			<button type="button">문의하기</button> 
+		</div>
+		<div id="user">
+			<button type="button"><img src="images/user.png" width="20" height="20" /></button>
+			<button type="button"><img src="images/cart.png" width="20" height="20" /></button>
+			<button type="button"><img src="images/msg.png" width="20" height="20" /></button>
+			<form action="uri" method="post"> 
+				<input type="text" id='searchForm' size='20' name = "searchWord" placeholder="검색어를 입력하세요"></input> 
+				<button type="submit"><img src="images/search.png" width="20" height="20" /></button>
+			</form>
+		</div>
+	</div>
+	<body>
+		<section class="login">
+			<img src="images/loginLogo.png">
+			<h3>안녕하세요!<br />한성대학교 학번/교직원번호로 로그인해주세요.</h3>
+			<p>
+				※ 아이디, 비밀번호는 학교 홈페이지와 동일합니다. <br />
+				※ 회원 등록을 통한 본인 인증 후 이용이 가능 합니다.
+			</p>
+			<ul>
+			<li><input type="id" placeholder="학번 및 교직원번호" title="아이디입력"></li>
+			<li><input type="password" placeholder="비밀번호" title="비밀번호입력"></li>
+			<li><button>로그인</button></li>
+			</ul>
+		
+			<div>
+			  <ul>
+				<li><a href="https://www.hansung.ac.kr/sites/hansung/index.do" target="blank">한성대학교 홈페이지</a></li>
+				<li><a href="signUp.html">회원 등록</a></li>
+				<li><a href="https://info.hansung.ac.kr/" target="blank">비밀번호 찾기</a></li>
+			  </ul>
+			 </div>
+		  </section>
+	</body>
+</div>

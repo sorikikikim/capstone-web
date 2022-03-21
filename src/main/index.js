@@ -4,8 +4,8 @@ function MainPage() {
 	return (
 		<div>	
 			<div id="login">
-				<button type="button" id='homeBtn'>로그인</button>
-				<button type="button" id='sellBtn'>회원가입</button>
+				<button type="button" id='homeBtn' onclick="location.href='logIn.html'">로그인</button>
+				<button type="button" id='sellBtn' onclick="location.href='signUp.html'">회원가입</button>
 			</div>
 			<div id="header">
 				<p id="title"><img src="images/mainLogo.png"></img>&nbsp;한성마켓</p>
